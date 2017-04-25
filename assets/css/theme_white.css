@@ -1,0 +1,427 @@
+/*=============================================================================
+
+
+		base
+
+
+=============================================================================*/
+
+
+html, body, input {
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Exo 2', sans-serif;
+	/*font-family: 'Play', sans-serif;*/
+	/*font-family: 'Doppio One', sans-serif;*/
+	font-size: 16px;
+	background: #fafafa;/*102c44*/
+	color: #000;
+}
+
+a {
+	color: #0ff;
+}
+	a:hover {
+		color: #0cf;
+	}
+
+
+/*____________________________________________
+override
+--------------------------------------------*/
+
+
+
+/*____________________________________________
+basic
+--------------------------------------------*/
+
+div#header {
+	/*background: rgba(0,100,200,.52);*/
+	background: #333;
+	border-bottom: 2px solid #334;
+}
+
+
+/*____________________________________________
+header
+--------------------------------------------*/
+
+/*header_datetime_menu*/
+
+/*date time*/
+
+
+#header_datetime span.hd_button {
+	border:1px solid rgba(255,255,255,.5);
+	color: #fff;
+}
+	#header_datetime span.hd_button:hover {
+		border:1px solid #fff;
+	}
+
+.hd_label_today {
+	color: #ccf;
+	
+}
+.hd_label_data {
+	color: #fca;
+}
+
+/*menu*/
+
+#header_menu a {
+	color: #fff;
+	background: #112;
+}
+	#header_menu a:hover {
+		color: #aff;
+		background: #000;
+	}
+
+
+/*____________________________________________
+Error 404
+--------------------------------------------*/
+
+
+
+
+/*____________________________________________
+scurve_page
+--------------------------------------------*/
+
+
+
+div.scurve_page div.switchblock {
+	color: #fff;
+}
+
+div.scurve_page > div.ssp_6scurve div.switchblock {
+	background: #096;
+}
+div.scurve_page > div.ssp_elevated div.switchblock {
+	background: #09c;
+}
+div.scurve_page > div.ssp_underground div.switchblock {
+	background: #960;
+}
+div.scurve_page > div.ssp_system div.switchblock {
+	background: #768;
+}
+
+div.scurve_page > div.ssp_6scurve div.switchblock:hover {
+	background: #1a7;
+}
+div.scurve_page > div.ssp_elevated div.switchblock:hover {
+	background: #1ad;
+}
+div.scurve_page > div.ssp_underground div.switchblock:hover {
+	background: #a71;
+}
+div.scurve_page > div.ssp_system div.switchblock:hover {
+	background: #879;
+}
+
+
+
+
+/*=============================================================================
+
+
+		portlet
+
+
+=============================================================================*/
+
+/*
+color code
+
+*/
+
+/*text color
+green, red, red bold*/
+.colorcode_1 {
+	color: #9f3;
+}
+.colorcode_2 {
+	color: #f00;
+}
+.colorcode_3 {
+	color: #f00;
+	font-weight: bold;
+}
+
+/*ball
+green, orange, red*/
+.colorcode_ball_1 {
+	color: #0a5;
+}
+.colorcode_ball_2 {
+	color: #fa0;
+}
+.colorcode_ball_3 {
+	color: #f00;
+}
+
+
+/*
+dimension
+
+*/
+
+
+/*
+breadcrumb
+
+*/
+.custom_breadcrumb a {
+	color: #08f;
+}
+	.custom_breadcrumb a:hover {
+		color: #0bf;
+	}
+div.custom_breadcrumb div.title {
+	color: #335;
+	border-bottom: 1px solid #999;
+}
+
+
+/*
+asof
+
+*/
+span.plate_asof {
+	color: #fc0;
+}
+
+
+/*
+portlet_setup
+
+*/
+div.portlet div.content {
+	background: rgba(255,255,255,.65);
+	border: 1px solid rgba(0,0,0,.2);
+}
+
+div.portlet_title {
+	color: #000;
+	background: #ccd;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+div#container {
+	color: #000 !important;
+}
+rect.highcharts-background {
+	fill: none !important;
+}
+
+
+/*table*/
+table thead {
+	background: rgba(0,100,200,.2);
+}
+
+
+/*
+portlet_milestone
+
+*/
+
+div.portlet_milestone div.content a {
+	color: #000;
+}
+
+/*theader border*/
+div.portlet_milestone table th {
+	border-bottom: 1px solid #000 !important;
+}
+div.portlet_milestone table .col_separation {
+	border-right: 2px solid #fff;
+}
+
+/*tbody border*/
+div.portlet_milestone table tbody td {
+	border-bottom: 1px solid #669 !important;
+}
+
+
+
+/*
+portlet_progress_v2
+
+*/
+.portlet_progress_v2 div.block .plate1 span.number {
+	border-left: 3px solid #09f;
+}
+.portlet_progress_v2 div.block .plate2 span.number {
+	border-left: 3px solid #f05;
+}
+.portlet_progress_v2 div.block .plate3 span.number {
+	border-left: 3px solid #999;
+}
+
+/*
+portlet_line_chart
+
+*/
+
+
+span.item_value {
+	color: #000;
+}
+
+div.psd_data_type1 {
+	background: rgba(255,255,255,.1);
+}
+div.psd_data_type2 {
+	background: rgba(255,255,255,.15);
+}
+
+
+
+/*
+portlet_performance
+
+*/
+div.portlet_performance a {
+	color: #000;
+}
+
+/*theader border*/
+div.portlet_performance table th {
+	border-bottom: 1px solid rgba(0,0,100,.0) !important;
+}
+div.portlet_performance table th.colorcode_bbar_1 {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	background: rgba(255,255,255,.25);
+	border-bottom: 2px solid #09f !important;
+}
+div.portlet_performance table th.colorcode_bbar_2 {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	background: rgba(255,255,255,.25);
+	border-bottom: 2px solid #f05 !important;
+}
+div.portlet_performance table th.colorcode_bbar_3 {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	background: rgba(255,255,255,.25);
+	border-bottom: 2px solid #555 !important;
+}
+div.portlet_performance table .col_separation {
+	border-right: 2px solid #fff;
+}
+
+/*tbody border*/
+div.portlet_performance table tbody td {
+	border-bottom: 1px solid #669 !important;
+}
+
+/*value color*/
+
+div.portlet_performance table td.val_early,
+div.portlet_performance table td.val_varearly {
+	color: #09f;
+}
+div.portlet_performance table td.val_actual {
+	color: #f05;
+}
+div.portlet_performance table td.val_late,
+div.portlet_performance table td.val_varlate {
+	color: #555;
+}
+
+/*button*/
+
+
+/*
+portlet_prognosis
+
+*/
+div.portlet_prognosis div.content {
+	background: #fda;/*125*/
+	border: 1px solid #f50;
+	border-radius: 6px;
+}
+div.portlet_prognosis div.portlet_content {
+	padding: 5px 20px;
+}
+
+
+/*
+portlet_block_number
+
+*/
+
+div.portlet_block_number div.content {
+	background: rgba(100,100,200,.25);
+	/*background: rgba(100,100,120,.3);*/
+}
+
+div.portlet_block_number div.portlet_content {
+	text-align: center;
+}
+
+div.portlet_block_number div.portlet_content > div {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+
+.portlet_block_number div.block {
+	padding: 60px 15px;
+}
+
+.portlet_block_number div.block div.plate > span {
+	display: block;
+}
+.portlet_block_number div.block span.number {
+	font-size: 4em;
+}
+.portlet_block_number div.block span.title {
+	font-size: .8em;
+}
+
+.portlet_block_number .block_color_a1 {
+	background: #f05;
+	color: #fff;
+}
+.portlet_block_number .block_color_a2 {
+	background: #09f;
+	color: #fff;
+}
+.portlet_block_number .block_color_a3 {
+	background: #333;
+	color: #fff;
+}
+.portlet_block_number .block_color_a4 {
+	background: #111;
+	/*color: #fff;*/
+}
+
+
+
+/*
+portlet_pcu
+
+*/
+
+
+/*
+portlet_ayp
+
+*/
+div.top_plate div.block {
+	background: #ccc;
+	/*background: rgba(0,0,0,.1);*/
+}
+div.top_plate div.block span.number {
+	border-left : 4px solid #0a5;
+}
+
+div.top_plate div.block_title span.number a {
+	color: #000;
+}

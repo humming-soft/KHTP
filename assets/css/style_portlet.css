@@ -1,0 +1,678 @@
+
+
+/*
+
+
+color code
+
+
+*/
+
+/*text color
+green, red, red bold*/
+.colorcode_1 {
+	color: #9f3;
+}
+.colorcode_2 {
+	color: #f59;
+}
+.colorcode_3 {
+	color: #f59;
+	font-weight: bold;
+}
+
+/*ball
+green, orange, red*/
+.colorcode_ball_1 {
+	color: #0f0;
+}
+.colorcode_ball_2 {
+	color: #fa0;
+}
+.colorcode_ball_3 {
+	color: #f59;
+}
+
+/*status
+green, orange, red*/
+.colorcode_status1 {
+	color: #0f5;
+}
+.colorcode_status2 {
+	color: #ff0;
+}
+.colorcode_status3 {
+	color: #f05;
+}
+
+/*bottom bar
+blue, blue, red*/
+.colorcode_bbar_1 {
+	/*border-bottom: 2px solid #0af;*/
+}
+.colorcode_bbar_2 {
+	/*border-bottom: 2px solid #0fa;*/
+}
+.colorcode_bbar_3 {
+	/*border-bottom: 2px solid #f59;*/
+}
+
+/*table highlight*/
+.colorcode_row1 {
+	background: rgba(255,255,0,.25);
+	border-left: 3px solid #f05;
+	border-right: 3px solid #f05;
+}
+
+/*
+
+
+dimension
+
+
+*/
+
+div.plate_issue div.row.height_x1_sm,
+div.plate_portlet div.row.height_x1_sm {
+	height: 182px;
+	overflow: hidden;
+}
+div.plate_issue div.row.height_x1,
+div.plate_portlet div.row.height_x1 {
+	height: 250px;
+	overflow: hidden;
+}
+div.plate_issue div.row.height_x2,
+div.plate_portlet div.row.height_x2 {
+	height: 407px;
+	overflow: hidden;
+}
+div.plate_issue div.row.height_x3,
+div.plate_portlet div.row.height_x3 {
+	height: 554px;
+	overflow: hidden;
+}
+div.plate_issue div.row.height_xx,
+div.plate_portlet div.row.height_xx {
+	height: 100%;
+}
+
+div.plate_portlet div.row.height_x1.highcharts_inside,
+div.plate_portlet div.row.height_x1.highcharts_inside > div,
+div.plate_portlet div.row.height_x1.highcharts_inside div.highcharts-container  {
+	height: 260px;
+	padding: 0 10px 20px 0;
+	overflow: hidden;
+}
+div.plate_portlet div.row.height_x2.highcharts_inside,
+div.plate_portlet div.row.height_x2.highcharts_inside > div,
+div.plate_portlet div.row.height_x2.highcharts_inside div.highcharts-container  {
+	height: 407px;
+	padding: 0 10px 20px 0;
+	overflow: hidden;
+}
+div.plate_portlet div.row.height_x3.highcharts_inside,
+div.plate_portlet div.row.height_x3.highcharts_inside > div,
+div.plate_portlet div.row.height_x3.highcharts_inside div.highcharts-container  {
+	height: 554px;
+	padding: 0 10px 20px 0;
+	overflow: hidden;
+}
+div.plate_portlet div.row.height_xx.highcharts_inside,
+div.plate_portlet div.row.height_xx.highcharts_inside > div,
+div.plate_portlet div.row.height_xx.highcharts_inside div.highcharts-container  {
+	height: 100%;
+	padding: 0 10px 20px 0;
+}
+
+/*temp*/
+div.height_x2a {
+	height: 240px;
+	overflow: hidden;
+}
+
+/*
+
+
+set left / center / right
+
+
+*/
+
+div.portlet_content .set_left {
+	text-align: left;
+}
+div.portlet_content .set_center {
+	text-align: center;
+}
+div.portlet_content .set_right {
+	text-align: right;
+}
+
+
+/*
+
+
+breadcrumb
+
+
+*/
+.custom_breadcrumb {
+	padding: 0 5px;
+	font-size: .9em;
+}
+.custom_breadcrumb a {
+	text-decoration: none;
+	color: #0ff;
+}
+	.custom_breadcrumb a:hover {
+		color: #4af;
+	}
+.breadcrumb_divider {
+	padding: 0 10px;
+}
+div.custom_breadcrumb div.title {
+	color: #fff;
+	padding: 0 0 5px;
+	font-size: 1.5em;
+	border-bottom: 1px solid #335;
+}
+
+
+/*
+
+
+asof
+
+
+*/
+
+span.plate_asof {
+	padding: 0 0 0 10px;
+	font-size: .8em;
+	color: #fc0;
+}
+
+
+/*
+
+
+portlet_setup
+
+
+*/
+div.portlet {
+	margin: 0;
+	padding: 0;
+}
+
+div.portlet div.content {
+	margin: 5px 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1px solid #000;
+	background: #252237;
+}
+
+div.portlet_title {
+	padding: 5px 10px;
+	font-size: 1em;
+	color: #fff;
+	background: rgba(255,255,255,.3);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.fa_title_icon {
+	padding: 0 10px 0 0;
+}
+
+.portlet_content {
+}
+
+div#container {
+	color: #fff !important;
+}
+rect.highcharts-background {
+	fill: none !important;
+}
+
+table thead {
+	background: #000;
+}
+
+
+/*
+
+
+portlet_milestone
+
+
+*/
+
+div.portlet_milestone div.content a {
+	color: #fff;
+}
+
+div.portlet_milestone div.content {
+}
+div.portlet_milestone div.portlet_content {
+	padding-top: 10px;
+}
+
+div.portlet_milestone table {
+	font-size: .9em;
+}
+
+/*theader border*/
+div.portlet_milestone table th {
+	border-bottom: 1px solid #000 !important;
+	font-weight: normal;
+}
+div.portlet_milestone table .col_separation {
+	border-right: 2px solid #223;
+}
+
+/*tbody border*/
+div.portlet_milestone table tbody td {
+	border-bottom: 1px solid #669 !important;
+}
+
+
+
+/*
+
+
+portlet_progress_v2
+
+
+*/
+div.portlet_progress_v2 div.content {
+	height: 578px;
+}
+div.portlet_progress_v2 div.portlet_content {
+}
+
+.portlet_progress_v2 div.chart {
+	padding: 35px 0 5px;
+}
+
+.portlet_progress_v2 div.block {
+	padding: 5px 15px;
+}
+
+.portlet_progress_v2 div.block div.plate > span {
+	display: block;
+}
+.portlet_progress_v2 div.block span.title {
+	font-size: .8em;
+	vertical-align: middle;
+	padding: 10px 5px 5px;
+}
+.portlet_progress_v2 div.block span.number {
+	font-size: 2em;
+	vertical-align: middle;
+	padding: 0 20px;
+}
+	.portlet_progress_v2 div.block .plate1 span.number {
+		border-left: 3px solid #09f;
+	}
+	.portlet_progress_v2 div.block .plate2 span.number {
+		border-left: 3px solid #0fa;
+	}
+	.portlet_progress_v2 div.block .plate3 span.number {
+		border-left: 3px solid #f50;
+	}
+
+circle.svg_donut_system_circle {
+	fill: none;
+	stroke-width: 10;
+	stroke-dasharray: 0 150;
+}
+svg.svg_donut_system {
+	margin: 0 auto;
+	background: none;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	border-radius: 50%;
+	display: block;
+}
+
+
+/*
+
+
+portlet_line_chart
+
+
+*/
+
+div.portlet_line_chart div.content {
+}
+
+div.portlet_line_chart_data div.row div.item {
+	padding: 3px;
+}
+
+.portlet_line_chart svg {
+	margin-top: 20px;
+}
+
+span.item_title {
+	display: block;
+	font-size: .8em;
+}
+	span.item_title_variance {
+		display: block;
+		font-size: .8em;
+	}
+
+span.item_value {
+	display: block;
+	font-size: 1em;
+	color: #fff;
+}
+
+div.psd_data_type1 {
+	padding: 5px 10px !important;
+	background: rgba(255,255,255,.1);
+}
+div.psd_data_type2 {
+	padding: 5px 10px !important;
+	background: rgba(255,255,255,.15);
+}
+
+
+
+/*
+
+
+portlet_performance
+
+
+*/
+div.portlet_performance div.content {
+}
+div.portlet_performance div.portlet_content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.portlet_performance a {
+	color: #fff;
+}
+
+div.portlet_performance table {
+	font-size: .9em;
+}
+
+div.portlet_performance table thead {
+	vertical-align: top;
+}
+
+/*theader border*/
+div.portlet_performance table th {
+	border-bottom: 1px solid #000 !important;
+	font-weight: normal;
+	text-align: center;
+}
+div.portlet_performance table th:first-child {
+	text-align: left;
+}
+div.portlet_performance table th.colorcode_bbar_1 {
+	border-left: 2px solid #223;
+	border-right: 2px solid #223;
+	background: rgba(255,255,255,.1);
+	border-bottom: 2px solid #0af !important;
+}
+div.portlet_performance table th.colorcode_bbar_2 {
+	border-left: 2px solid #223;
+	border-right: 2px solid #223;
+	background: rgba(255,255,255,.1);
+	border-bottom: 2px solid #0fa !important;
+}
+div.portlet_performance table th.colorcode_bbar_3 {
+	border-left: 2px solid #223;
+	border-right: 2px solid #223;
+	background: rgba(255,255,255,.1);
+	border-bottom: 2px solid #f59 !important;
+}
+div.portlet_performance table .col_separation {
+	border-right: 2px solid #223;
+}
+
+/*tbody border*/
+div.portlet_performance table tbody td {
+	border-bottom: 1px solid #669 !important;
+}
+
+div.portlet_performance table td {
+	font-size: 2em;
+}
+
+div.portlet_performance table.text_sm td {
+	font-size: 1em;
+}
+
+/*value color*/
+div.portlet_performance table td.val_checkbox,
+div.portlet_performance table td.val_early,
+div.portlet_performance table td.val_late,
+div.portlet_performance table td.val_actual,
+div.portlet_performance table td.val_varearly,
+div.portlet_performance table td.val_varlate,
+div.portlet_performance table td.ball_indicator {
+	text-align: center;
+}
+
+div.portlet_performance table td.val_early,
+div.portlet_performance table td.val_varearly {
+	color: #09f;
+}
+div.portlet_performance table td.val_actual {
+	color: #905;
+}
+div.portlet_performance table td.val_late,
+div.portlet_performance table td.val_varlate {
+	color: #555;
+}
+
+/*button*/
+div.portlet_performance div.theader_button {
+	text-align: right;
+	padding: 0 0 10px;
+}
+
+
+/*
+
+
+portlet_prognosis
+
+
+*/
+div.portlet_prognosis div.content {
+	background: #125;
+	border: 1px solid #0cf;
+	border-radius: 6px;
+}
+div.portlet_prognosis div.portlet_content {
+	padding: 5px 20px;
+}
+
+
+/*
+
+
+portlet_block_number
+
+
+*/
+div.portlet_block_number div.content {
+	background: rgba(150,150,255,.2);
+}
+div.portlet_block_number div.portlet_content {
+	text-align: center;
+}
+
+div.portlet_block_number div.portlet_content > div {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.portlet_block_number div.block {
+	padding: 28px 15px;
+}
+
+.portlet_block_number div.block div.plate > span {
+	display: block;
+}
+.portlet_block_number div.block span.number {
+	font-size: 4em;
+}
+.portlet_block_number div.block span.title {
+	font-size: .8em;
+}
+
+.portlet_block_number .block_color_a1 {
+	color: #0fa;
+}
+.portlet_block_number .block_color_a2 {
+	color: #0af;
+}
+.portlet_block_number .block_color_a3 {
+	color: #f50;
+}
+.portlet_block_number .block_color_a4 {
+	color: #ff0;
+}
+
+
+
+/*
+
+
+portlet_pcu
+
+
+*/
+div.portlet_pcu div.content {
+	background: #252237; /*252237*/
+}
+
+div.portlet_pcu #pcu1,
+div.portlet_pcu #pcu2 {
+	/*margin: 30px 20px 0 20px;*/
+	height: 260px;
+}
+
+
+div.portlet_pcu div.block_plate {
+	/*margin-top: 20px;*/
+}
+
+div.portlet_pcu div.block_plate div.block {
+	/*height: 120px;*/
+	margin: 10px;
+	padding: 15px;
+}
+
+div.portlet_pcu div.block_plate div.block span.number {
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+}
+div.portlet_pcu div.block_plate div.block span.title {
+	font-size: 1.1em;
+	display: block;
+	text-align: center;
+}
+
+
+
+div.portlet_pcu div.block_plate div.block.block_a1 span.number {
+	border-top: 3px solid #000;
+}
+div.portlet_pcu div.block_plate div.block.block_a2 span.number {
+	border-top: 3px solid #f0f;
+}
+div.portlet_pcu div.block_plate div.block.block_a3 span.number {
+	border-top: 3px solid #00f;
+}
+
+div.portlet_pcu div.block_plate div.block.block_b2 span.number {
+	border-top: 3px solid #f50;
+}
+div.portlet_pcu div.block_plate div.block.block_b3 span.number {
+	border-top: 3px solid #0c9;
+}
+
+
+
+
+
+/*
+
+
+portlet_ayp
+
+
+*/
+div.portlet_ayp div.content {
+	height: 650px;
+}
+
+div.portlet_ayp #ayp {
+	/*margin: 30px 20px 0 20px;*/
+	height: 420px;
+}
+
+
+div.top_plate {
+	margin-top: 20px;
+}
+
+div.top_plate div.block {
+	padding: 10px 20px;
+	background: rgba(0,0,0,.3);
+}
+div.top_plate div.block span.number {
+	padding: 0 20px;
+	margin-top: 10px;
+	display: block;
+	font-size: 2.5em;
+	border-left : 4px solid #0fa;
+}
+div.top_plate div.block span.title {
+	display: block;
+	font-size: 1em;
+}
+div.top_plate div.block span.button {
+	padding: 0 0 10px;
+	margin-top: 10px;
+	display: block;
+	font-size: 1em;
+	text-align: right;
+}
+
+div.top_plate div.block span.button a {
+	background: #fff;
+	border-radius: 4px;
+	padding: 5px 20px;
+	border:2px solid #0bf;
+	color: #0bf;
+}
+	div.top_plate div.block span.button a:hover {
+		border:2px solid #09f;
+		color: #49f;
+	}
+
+div.top_plate div.block_title span.number {
+	margin-bottom: 10px;
+	display: block;
+	font-size: 2em;
+}
+	div.top_plate div.block_title span.number a {
+		color: #fff;
+	}
